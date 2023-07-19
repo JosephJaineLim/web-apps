@@ -1,0 +1,14 @@
+.app__icon-overlay{
+    position: absolute;
+    top:3.5rem;
+
+    width: max-content;
+    height: max-content;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-4);
+}
