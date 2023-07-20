@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className='app__navbar'>
       <div className="app__navbar-left">
         <GiHamburgerMenu size='18px'/>
-        <h1>Metube</h1>
+        <h1>MeTube</h1>
       </div>
       <div className="app__navbar-center">
         <form>

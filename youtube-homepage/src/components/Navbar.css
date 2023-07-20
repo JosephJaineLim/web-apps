@@ -13,7 +13,7 @@
 
 .app__navbar-left{
     width: 10%;
-    padding: 0rem 1.5rem;
+    padding: 0rem 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,6 +27,7 @@
 
 .app__navbar-center{
     width: 80%;
+    height: max-content;
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -45,7 +46,7 @@
     position: relative;
 }
 .app__navbar-center input{
-    width: 536px;
+    width: 500px;
     background-color: var(--bg-color-3);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -59,17 +60,17 @@
 }
 .app__navbar-center input:focus{
     outline-offset: -1px;
-    width: 568px;
+    width: 536px;
     padding-left: 52px;
     margin-left: 0;
 }
 .input-glass{
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 55px;
 }
 .center-button{
-    width: 80px;
+    width: 65px;
     display: flex;
     align-items: center;
     justify-content: center;

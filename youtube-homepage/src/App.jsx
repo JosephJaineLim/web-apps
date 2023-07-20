@@ -1,9 +1,16 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Navbar,Sidebar,Videos} from './components';
+import './App.css';
 
 const App = () => {
   return (
-    <div><Navbar /></div>
+    <div>
+      <Navbar />
+      <div className='app__body'>
+        <Sidebar />
+        <Videos />
+      </div>
+    </div>
   )
 }
 

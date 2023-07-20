@@ -1,0 +1,27 @@
+.app__sidebar{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: white;
+    padding: 10px;
+}
+
+.app__sidebar-category{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 2rem;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.app__sidebar-category p{
+    margin: 0;
+}

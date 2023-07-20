@@ -1,0 +1,1 @@
+export const categories = ['Home','Shorts','Subscription','Library','History','Your videos','Watch later','Liked videos','Full Stack    ']
