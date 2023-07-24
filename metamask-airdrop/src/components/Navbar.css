@@ -24,8 +24,9 @@
 }
 
 .app__navbar-tab:hover{
-    animation: heartBeat;
-    animation-duration: 1s;
+    animation: pulse;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
 }
 
 .app__navbar-title{
@@ -38,7 +39,6 @@
     height: 100%;
 
     
-
     background-color: black;
     color: white;
 }
