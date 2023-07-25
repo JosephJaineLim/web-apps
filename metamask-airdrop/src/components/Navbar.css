@@ -24,8 +24,8 @@
 }
 
 .app__navbar-tab:hover{
-    animation: pulse;
-    animation-duration: .5s;
+    animation: heartBeat;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
