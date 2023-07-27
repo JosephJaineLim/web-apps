@@ -5,35 +5,60 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .app__step1-container{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-
     position: relative;
+    border: solid orange; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
 }
 
 .app__step1-container p{
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    color: white;
+
 }
 
 .app__step1-container img:nth-of-type(1){
     width: 250px;
+    margin: 10px 10px 0px 10px;
 }
 
 .app__step1-container img:nth-of-type(2){
     position: absolute;
     z-index: 1;
     width: 25px;
-
-    animation: cursorMovement 3s infinite;
 }
 
-@keyframes cursorMovement {
+.app__step1-container .left{
+    animation: leftCursorMovement 3s infinite;
+}
+
+.app__step1-container .right{
+    animation: rightCursorMovement 3s infinite;
+}
+
+@keyframes leftCursorMovement {
     from {top: 250px; left: 50px;}
-    to {top: 200px; left: 135px;}
-  }
+    to {top: 170px; left: 125px;}
+}
+@keyframes rightCursorMovement{
+    from {top: 170px; left: 125px;}
+    to {top: 370px; left: 125px;}
+}

@@ -4,7 +4,7 @@ import { useState} from 'react';
 
 const Dash = () => {
   return (
-    <div style={{width:'35px', height:'3px',backgroundColor:'black', zIndex:'-1'}}/>
+    <div style={{width:'35px', height:'5px',backgroundColor:'black', zIndex:'-1'}}/>
   )
 }
 
